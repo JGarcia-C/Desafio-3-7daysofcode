@@ -1,0 +1,38 @@
+alert("Bienvenido, a continuación deberá escoger entre dos especializaciones dentro del programa de programación. /n Continue.")
+
+const end = parseInt(prompt("Ingrese 1 para Front-End o ingrese 2 para Back-End"));
+
+while (end >= 1){
+  if(end == 1){
+    const end1 = parseInt(prompt("Escogiste Front-End, ahora ingresa:/n  1 React./n  2 Vue."));
+      if(end1 == 1){
+        const end2 = parseInt(prompt(`Escogiste ${end1}, Ingresa:/n 1 Si deseas continuar especializándose en ${end1}./n 2 Si deseas desarrollarse en Fullstack.`));
+        alert(`Felicitaciones, espero que puedas especializarte bien en ${end2}`)
+      }
+      else if(end1 == 2){
+        const end2 = parseInt(prompt(`Escogiste ${end1}, Ingresa:/n 1 Si deseas continuar especializándose en ${end1}./n 2 Si deseas desarrollarse en Fullstack.`));
+        alert(`Felicitaciones, espero que puedas especializarte bien en ${end2}`)
+      }
+      else{
+        alert("Ingresa 1 o 2")
+      }
+  }
+  else if(end == 2){
+    const end1 = parseInt(prompt("Escogiste Back-End, ahora ingresa:/n  1 C#./n  2 Java."));
+      if(end1 == 1){
+        const end2 = parseInt(prompt(`Escogiste ${end1}, Ingresa:/n 1 Si deseas continuar especializándose en ${end1}./n 2 Si deseas desarrollarse en Fullstack.`));
+        alert(`Felicitaciones, espero que puedas especializarte bien en ${end2}`)
+      }
+      else if(end1 == 2){
+        const end2 = parseInt(prompt(`Escogiste ${end1}, Ingresa:/n 1 Si deseas continuar especializándose en ${end1}./n 2 Si deseas desarrollarse en Fullstack.`));
+        alert(`Felicitaciones, espero que puedas especializarte bien en ${end2}`)
+      }
+      else{
+        alert("Ingresa 1 o 2")
+      }
+  }
+  else{
+        alert("Ingresa 1 o 2")
+      }
+
+}
